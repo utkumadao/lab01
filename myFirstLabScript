@@ -1,0 +1,28 @@
+name = str(input('What is your name?'))
+print('Hello ' + name)
+var_ID = int(input('What is your Student ID?'))
+print(f"Your ID is  {var_ID}")
+
+var1 = int(input('Please write number 1 variable'))
+var2 = int(input('Please write number 2 variable'))
+var_sum = (var1+var2)
+var_diff = abs(var1 - var2)
+var_prod = var1*var2
+print(f"var1: {var1} \nvar2: {var2} \nsum: {var_sum}  \ndiff: {var_diff} \nprod: {var_prod}")
+
+nameStd = str(input("Name?"))
+print("Name: " + nameStd)
+lab = int(input("Lab point?"))
+labG = float(lab*0.25)
+print(f"Lab: {lab}")
+midterm = int(input("Midterm point?"))
+midtermG = float(midterm*0.35)
+print(f"Midterm: {midterm}")
+final = int(input("Final point?"))
+finalG = float(final*0.4)
+print(f"Lab:  {final}")
+print("Calculating last score...")
+lastScore = float(labG + midtermG + finalG)
+print(f"Last Score: {lastScore}")
+
+print("*\n**\n***\n**\n*")
